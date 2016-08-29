@@ -9,7 +9,7 @@
 	привет ВК
 	<script type="text/javascript"> 
 	var getUserName = function(){
-		VK.api('user.get', function (data){
+		VK.api('user.get', {}, function (data){
 			console.log(data);
 		}) 
 	}
