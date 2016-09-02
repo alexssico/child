@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after{
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.main-menu ul{
+	margin:0px;
+}
+
+.main-menu li{
+	padding: 5px;
+	background: #ccc;
+	float: left;
+	border: 1px solid black;
+}

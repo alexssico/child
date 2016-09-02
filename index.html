@@ -3,23 +3,27 @@
 <head>
 	<meta charset="utf-8">
 	<title>vk child</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
+	<script src="js/main.js"></script>
 </head>
 <body>
-	привет ВК
-	<script type="text/javascript"> 
-	var getUserName = function(){
-		VK.api('users.get', {}, function (data){
-			console.log(data);
-		}) 
-	}
+	<div>
+		<nav class="main-menu clearfix">
+			<ul>
+				<li>Шорти</li>
+				<li>Брюки</li>
+				<li>Рубашки</li>
+				<li>Футболки</li>				
+			</ul>
+			<a href="#" class="btn add">Добавить товар</a>
+		</nav>
+		<div class="main">
+			<div class="product"> 
+				<img src="">
+			</div>	
+		</div>
+	</div>
 
-  VK.init(function() { 
-     console.log("ok");
-     getUserName(); 
-  }, function() { 
-     console.log('error');
-}, '5.53'); 
-</script>
 </body>	
 </html>
