@@ -1,6 +1,6 @@
 var getUser = function(){
 		VK.api('users.get', {}, function (data){
-			userId = data['response']['0']['id'];
+			userId = data.response.id;
 		}) 
 	};
 
