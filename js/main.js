@@ -13,7 +13,7 @@ var getUser = function(){
 
   VK.init(function() { 
      getUser();
-     getAlbum(); 
+     //getAlbum(); 
   }, function() { 
      console.log('error');
 }, '5.53'); 
