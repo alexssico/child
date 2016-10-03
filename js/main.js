@@ -5,6 +5,8 @@ var getUser = function(){
 		}) 
 	};
 
+
+
 // var getAlbum = function (){
 // 	VK.api('photos.getAlbums',{ owner_id: userId}, function (data){
 // 		album = data['response'];
@@ -13,6 +15,7 @@ var getUser = function(){
 
   VK.init(function() { 
      getUser();
+     VK.callMethod("showProfilePhotoBox", "sdf87dfhsdfdfjererhfd9");
      //getAlbum(); 
   }, function() { 
      console.log('error');
